@@ -1,0 +1,162 @@
+{
+    "B1M.1": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 1",
+        "precision": 0,
+        "ticker": "B1M.1",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 1,
+            "genesis_price_sats": 2100,
+            "royalty_bps": 210
+        }
+    },
+    "B1M.2": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 2",
+        "precision": 0,
+        "ticker": "B1M.2",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 2,
+            "genesis_price_sats": 3503,
+            "royalty_bps": 210
+        }
+    },
+    "B1M.3": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 3",
+        "precision": 0,
+        "ticker": "B1M.3",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 3,
+            "genesis_price_sats": 5843,
+            "royalty_bps": 210
+        }
+    },
+    "B1M.4": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 4",
+        "precision": 0,
+        "ticker": "B1M.4",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 4,
+            "genesis_price_sats": 9747,
+            "royalty_bps": 210
+        }
+    },
+    "B1M.5": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 5",
+        "precision": 0,
+        "ticker": "B1M.5",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 5,
+            "genesis_price_sats": 16260,
+            "royalty_bps": 210
+        }
+    },
+    "B1M.6": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 6",
+        "precision": 0,
+        "ticker": "B1M.6",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 6,
+            "genesis_price_sats": 27123,
+            "royalty_bps": 210
+        }
+    },
+    "B1M.7": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 7",
+        "precision": 0,
+        "ticker": "B1M.7",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 7,
+            "genesis_price_sats": 45243,
+            "royalty_bps": 210
+        }
+    },
+    "B1M.8": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 8",
+        "precision": 0,
+        "ticker": "B1M.8",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 8,
+            "genesis_price_sats": 75470,
+            "royalty_bps": 210
+        }
+    },
+    "B1M.9": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 9",
+        "precision": 0,
+        "ticker": "B1M.9",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 9,
+            "genesis_price_sats": 125892,
+            "royalty_bps": 210
+        }
+    },
+    "B1M.10": {
+        "entity": {
+            "domain": "manlikekweks.com"
+        },
+        "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY",
+        "name": "B1M Epoch 10",
+        "precision": 0,
+        "ticker": "B1M.10",
+        "version": 0,
+        "collection": "B1M_ETERNAL_STRIKE",
+        "metadata": {
+            "epoch": 10,
+            "genesis_price_sats": 210000,
+            "royalty_bps": 210
+        }
+    }
+}
