@@ -1,51 +1,50 @@
-import json
-import hashlib
+import math
 
-def generate_b1m_contracts():
-    # Manifesto Data [cite: 22]
-    manifesto_prices = [2100, 3503, 5843, 9747, 16260, 27123, 45243, 75470, 125892, 210000]
-    domain = "manlikekweks.com" # Your proof-of-authority domain [cite: 47]
+def calculate_b1m_ark():
+    # --- CONFIGURATION ---
+    EPOCHS = 10
+    TOKENS_PER_EPOCH = 21000
+    ELDER_SUPPLY = 21
+    ELDER_PRICE_BTC = 2.1
     
-    print("--- B1M SOVEREIGN ASSET REGISTRY MANIFEST ---")
+    # Starting and Ending target prices for the ladder
+    start_price = 2100
+    end_price = 210000
     
-    all_contracts = {}
+    # Calculate the exponential growth rate (multiplier)
+    # Price_n = Price_1 * (multiplier)^(n-1)
+    multiplier = (end_price / start_price) ** (1 / (EPOCHS - 1))
+    
+    print("🚢 B1M ARK PROTOCOL: MATHEMATICAL VERIFICATION")
+    print("-" * 50)
+    
+    total_ladder_sats = 0
+    
+    # --- 10-EPOCH LADDER CALCULATION ---
+    for n in range(1, EPOCHS + 1):
+        # Calculate price for current epoch
+        price = round(start_price * (multiplier ** (n - 1)))
+        
+        # Override epoch 10 to exactly 210,000 for clean alignment
+        if n == 10: price = 210000
+            
+        epoch_total = price * TOKENS_PER_EPOCH
+        total_ladder_sats += epoch_total
+        
+        print(f"Epoch {n:2}: {price:7} Sats | Total: {epoch_total/1e8:9.4f} BTC")
 
-    for i, price in enumerate(manifesto_prices):
-        epoch = i + 1
-        asset_name = f"B1M Epoch {epoch}"
-        ticker = f"B1M.{epoch}"
-        
-        # This is the "Sovereign Contract" that Liquid nodes verify [cite: 13, 16]
-        contract = {
-            "entity": {"domain": domain},
-            "issuer_pubkey": "MANLIKEKWEKS_GENESIS_PUBKEY", # To be replaced with your Liquid wallet pubkey
-            "name": asset_name,
-            "precision": 0, # B1M is issued in whole units [cite: 20]
-            "ticker": ticker,
-            "version": 0,
-            "collection": "B1M_ETERNAL_STRIKE",
-            "metadata": {
-                "epoch": epoch,
-                "genesis_price_sats": price,
-                "royalty_bps": 210 # 2.1% Sovereign Fee 
-            }
-        }
-        
-        # Calculate a unique hash for this epoch's contract
-        contract_json = json.dumps(contract, sort_keys=True)
-        contract_hash = hashlib.sha256(contract_json.encode()).hexdigest()
-        
-        print(f"EPOCH {epoch}: {asset_name} ({ticker})")
-        print(f"  Price: {price} sats")
-        print(f"  Contract Hash: {contract_hash}")
-        print("-" * 45)
-        
-        all_contracts[ticker] = contract
-
-    # Save to a file for your registry upload
-    with open("b1m_registry_contracts.json", "w") as f:
-        json.dump(all_contracts, f, indent=4)
-    print("\n[SUCCESS] Registry manifest saved to b1m_registry_contracts.json")
+    # --- ELDER PLANK CALCULATION ---
+    elder_total_sats = int(ELDER_PRICE_BTC * 1e8) * ELDER_SUPPLY
+    
+    print("-" * 50)
+    print(f"ELDER SERIES: {ELDER_PRICE_BTC} BTC each x {ELDER_SUPPLY} units")
+    print(f"Elder Total: {elder_total_sats/1e8:11.2f} BTC")
+    print("-" * 50)
+    
+    # --- FINAL TALLY ---
+    grand_total_sats = total_ladder_sats + elder_total_sats
+    print(f"GRAND TOTAL TREASURY: {grand_total_sats/1e8:,.2f} BTC")
+    print(f"SATS TOTAL: {grand_total_sats:,} Sats")
 
 if __name__ == "__main__":
-    generate_b1m_contracts()
+    calculate_b1m_ark()
