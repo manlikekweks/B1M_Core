@@ -10,9 +10,26 @@ The **B1M Sovereign Standard** is an Ark built on the bedrock of Bitcoin and the
 ## 🛠️ THE SHIPYARD (TECHNICAL SPECS)
 This repository contains the core logic for the B1M launch on **May 1, 2026**, leading toward **Block 1,000,000**.
 
-* **The Pricing Ladder:** A 10-Epoch distribution protocol (2,100 to 210,000 sats) that eliminates middlemen and ensures a fair, logarithmic ascent for the collection.
-* **The Ghost Protocol:** A 21-hour randomized "revival" window activating on the 21st of every month to reclaim and redistribute unheld stock.
-* **The Navigation System:** A mission-stability protocol that monitors for "Course Drift." It ensures the project stays anchored to its intended value, protecting fans from the volatile waves of the legacy market.
+## 📈 THE MATHEMATICS OF THE ARK (B1M LADDER)
+
+The Ark uses an **Exponential Difficulty Adjustment** rather than a linear increase. Each epoch increases the unit price by approximately **66.8%**, rewarding early supporters of the sovereign movement.
+
+| Epoch | Launch Date | Price (Sats) | Supply | Total Sats |
+| :--- | :--- | :--- | :--- | :--- |
+| **1** | Sept 21, 2026 | **2,100** | 21,000 | 44,100,000 |
+| **2** | Oct 13, 2026 | **3,503** | 21,000 | 73,563,000 |
+| **3** | Nov 04, 2026 | **5,843** | 21,000 | 122,703,000 |
+| **4** | Nov 26, 2026 | **9,747** | 21,000 | 204,687,000 |
+| **5** | Dec 18, 2026 | **16,260** | 21,000 | 341,460,000 |
+| **6** | Jan 09, 2027 | **27,123** | 21,000 | 569,583,000 |
+| **7** | Jan 31, 2027 | **45,243** | 21,000 | 950,103,000 |
+| **8** | Feb 22, 2027 | **75,470** | 21,000 | 1,584,870,000 |
+| **9** | Mar 16, 2027 | **125,892** | 21,000 | 2,643,732,000 |
+| **10** | Apr 07, 2027 | **210,000** | 21,000 | 4,410,000,000 |
+| **TOTAL** | | | **210,000** | **10,944,804,000** |
+
+**Target Treasury:** ~109.44 BTC
+**Formula:** $Price_n = Price_{n-1} \times 1.6681$
 
 ## 📡 SOVEREIGN LOGS (CAPTAIN'S DIARY)
 The journey from novice to sovereign is documented in real-time, dated by the only clock that matters: **945,598**
