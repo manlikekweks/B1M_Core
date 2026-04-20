@@ -3,48 +3,45 @@
 > *"A novice listened to the vision and built an Ark while the sun was still shining. While the world chases the flood, we are calibrating for True North."*
 
 ## 🌊 THE MISSION
-The legacy music industry is a flood—an extractive system where artists drown in fractions of a cent. The **B1M Sovereign Standard** is an Ark built on Bitcoin and the Liquid Network, ensuring art remains timeless and ownership remains absolute.
+The legacy music industry is a flood—an extractive system where artists drown in fractions of a cent. The **B1M Sovereign Standard** is an Ark built on Bitcoin and the Liquid Network, ensuring art remains timeless and ownership remains absolute. 
 
-## 🛠️ THE SHIPYARD (TECHNICAL SPECS)
-The Ark is engineered for a long-range voyage toward **Block 1,000,000** (est. May 2027).
+This is not a "token project." It is a **Digital Shipyard.**
 
-## 📈 THE MATHEMATICS OF THE ARK (B1M LADDER)
-The Ark uses an **Exponential Difficulty Adjustment**. Each epoch rewards early supporters by compounding the unit price by **~66.8%**.
+## 💎 THE SOVEREIGN STANDARD (PRECISION 0)
+The Ark is built from solid timber. B1M assets are **indivisible digital artifacts**. You cannot own 0.5 of a Jordan; you cannot own 0.5 of a B1M Plank. 
 
-| Epoch | Launch Date | Price (Sats) | Supply | Total Sats |
+* **Units:** Whole integers only.
+* **Standard:** Non-fractional Digital Ownership.
+* **Network:** Liquid Network (L-BTC backed).
+
+## 👟 THE B1M COLLECTION (VINTAGE SERIES)
+B1M is released in 11 distinct digital silhouettes. Each ticker represents a specific moment in the Ark's construction.
+
+| Series | Ticker | Description | Supply | Price |
 | :--- | :--- | :--- | :--- | :--- |
-| **1** | Sept 21, 2026 | **2,100** | 21,000 | 44,100,000 |
-| **2** | Oct 13, 2026 | **3,503** | 21,000 | 73,563,000 |
-| **3** | Nov 04, 2026 | **5,843** | 21,000 | 122,703,000 |
-| **4** | Nov 26, 2026 | **9,747** | 21,000 | 204,687,000 |
-| **5** | Dec 18, 2026 | **16,260** | 21,000 | 341,460,000 |
-| **6** | Jan 09, 2027 | **27,123** | 21,000 | 569,583,000 |
-| **7** | Jan 31, 2027 | **45,243** | 21,000 | 950,103,000 |
-| **8** | Feb 22, 2027 | **75,470** | 21,000 | 1,584,870,000 |
-| **9** | Mar 16, 2027 | **125,892** | 21,000 | 2,643,732,000 |
-| **10** | Apr 07, 2027 | **210,000** | 21,000 | 4,410,000,000 |
-| **TOTAL** | | | **210,000** | **10,944,804,000** |
-
-## 💎 THE ELDER PLANKS (SERIES 21)
-These represent the highest tier of sovereignty within the B1M ecosystem. 21 unique "Elder" tokens are issued for high-conviction supporters.
-
-* **Supply:** 21 Tokens
-* **Strike Price:** 2.1 BTC (210,000,000 Sats)
-* **Market Window:** Open for 1 year (May 2026 – May 2027)
-* **Registry:** Issued on Liquid; fully verifiable via `bitcoin-arusha.com`.
+| **Elder** | **B1M** | The Flagship Grails | 21 | 2.1 BTC |
+| **Epoch 1** | **B1ME1** | Genesis Launch | 21,000 | 2,100 Sats |
+| **Epoch 2** | **B1ME2** | Second Release | 21,000 | 3,503 Sats |
+| **Epoch 3** | **B1ME3** | Third Release | 21,000 | 5,843 Sats |
+| **Epoch 4** | **B1ME4** | Fourth Release | 21,000 | 9,747 Sats |
+| **Epoch 5** | **B1ME5** | Fifth Release | 21,000 | 16,260 Sats |
+| **Epoch 6** | **B1ME6** | Sixth Release | 21,000 | 27,123 Sats |
+| **Epoch 7** | **B1ME7** | Seventh Release | 21,000 | 45,243 Sats |
+| **Epoch 8** | **B1ME8** | Eighth Release | 21,000 | 75,470 Sats |
+| **Epoch 9** | **B1ME9** | Ninth Release | 21,000 | 125,892 Sats |
+| **Epoch 10**| **B1ME10**| Final Release | 21,000 | 210,000 Sats |
 
 ## 👻 THE GHOST PROTOCOL
-Once the primary strikes are over, the market goes "Dark" until Block 1,000,000. During this period, the Ark maintains a monthly heartbeat:
+The shipyard goes dark at **Block 1,000,000** (est. May 2027). Any units from the Vintage Series that remain unsold at the close of their epoch are moved into the Ghost Protocol:
 
 * **Frequency:** Every 21st of the month.
-* **Window:** A 21-hour random event.
-* **Action:** Randomized unsold tokens (including Elders) appear for a **21-minute bidding window**.
-* **Engagement:** This creates a recurring cultural event for the B1M fandom to capture remaining scarcity.
+* **The Event:** A randomized 21-minute bidding window.
+* **The Drop:** Rare access to remaining inventory from the 11 series.
 
-## 📡 SOVEREIGN LOGS (CAPTAIN'S DIARY)
-* **Current Block Height:** 945,598
-* **Official Blog:** [Man Like Kweks on Yakihonne](https://yakihonne.com/profile/nprofile1qqsyee4th45d4dhflhmw36v3928p97d488s83335c4dfhlefjjj3fhgzqqpsgqqqqqqqwxpk67)
-* **Authentication:** Assets are verified via Liquid's `.well-known` domain proof.
+## 📡 SOVEREIGN LOGS & VERIFICATION
+* **Official Registry:** All assets are issued by **Bitcoin Arusha**.
+* **Verification:** Assets are verified via the `bitcoin-arusha.com` domain proof.
+* **Captain's Logs:** [Man Like Kweks on Yakihonne](https://yakihonne.com/profile/nprofile1qqsyee4th45d4dhflhmw36v3928p97d488s83335c4dfhlefjjj3fhgzqqpsgqqqqqqqwxpk67)
 
 ---
 **"Built in Arusha. Authenticated by the Network. Sustained by the Community."**
